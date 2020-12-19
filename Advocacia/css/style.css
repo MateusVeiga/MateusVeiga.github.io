@@ -1,0 +1,267 @@
+
+/* CONFIGURAÇÕES IMPORTANTES */
+
+/* As Tags Body e Html recebem essas configurações para o site em geral e o ID home foi criado para facilitar
+	a criação de caixas com background */
+body, html, #home { 
+
+	font: 16px Lato, sans-serif;
+	margin: 0 !important; /* Sem Margem */
+	padding: 0 !important; /* Sem Padding */
+	height: 100% !important;  /* sem essa configuração as imagens de background ficam pequenas */
+	width: 100% !important;
+	scroll-behavior: smooth;
+	}
+
+/* Configurações para dividir os tamanhos de tela dependendo do aparelho */
+
+/* Media Query para configuração em vários dispositivos */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	width: 100% !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	width: 100% !important;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	width: 100% !important;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1500px) {
+	width: 100% !important;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1501px) {
+	width: 100% !important;
+}
+
+
+
+/* CONFIGURAÇÕES GERAIS */
+
+/* BARRA DE NAVEGAÇÃO */
+
+nav.navbar-transparente {
+	background: black;
+}
+
+.nav-link-white {
+	color: white !important;
+}
+.nav-link-white:hover {
+	color: #9bf0e1 !important;
+}
+
+.navbar-toggler-formated {
+	color: rgba(0,0,0,0) !important;
+	border-color: rgba(0,0,0,0) !important;
+}
+
+.padding-nav{
+	padding-bottom: 100px;
+
+}
+
+/* PARALLAX BOXES */
+
+.box1, .box2 {
+	display: flex;
+  	height: 100%;
+  	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.box3 ,.box4 {
+	display: flex;
+	height: 50%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* BOXES COM IMAGENS DE FUNDO */
+
+.box1 {
+	background-color: black;
+/* background-image: url(../img/fundoa.png), /* Imagem de fundo da primeira caixa (bloco) da home */
+	/* linear-gradient(60deg, #a6a1a1, #000000); /* Linear Gradient utilizando angulos */
+}
+
+.box2 {
+	background-image: url(../img/fundob.png),
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+.box3 {
+	background-image: url(../img/fundoc.png),
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+.box4 {
+	background-image: url(../img/fundoa.png),
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+/* BOXES COM CONTEÚDO */
+
+.conteudo {
+	color: #777;
+	background: white;
+	text-align: justify;
+	padding: 50px;
+}
+
+.hr-rotate-1 {
+	-webkit-transform:rotate(3deg);
+	background-color: black;
+}
+
+.hr-rotate-2 {
+	-webkit-transform:rotate(-3deg);
+	background-color: black;
+}
+
+.padding-box-1{
+	padding-bottom: 50px;
+
+}
+
+.padding-box-2{
+	padding-bottom: 100px;
+
+}
+
+.padding-box-3{
+	padding-bottom: 100px;
+
+}
+
+.imagem-conteudo-caixa-1 {
+	border-radius: 25px;
+	background-size: cover;
+	background-image: url(../img/fundo1.png), /* Imagem de fundo da primeira caixa (bloco) da home */
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+.imagem-conteudo-caixa-2 {
+	border-radius: 25px;
+	background-size: cover;
+	background-image: url(../img/fundo2.png), /* Imagem de fundo da primeira caixa (bloco) da home */
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+.imagem-conteudo-caixa-3 {
+	border-radius: 25px;
+	background-size: cover;
+	background-image: url(../img/fundo3.png), /* Imagem de fundo da primeira caixa (bloco) da home */
+	linear-gradient(60deg, #a6a1a1, #000000);
+
+}
+
+/* PERSONALIZAÇÃO DE BOTÕES */
+
+.btn-custom {
+	color: white !important;
+	border-radius: 500px !important;
+	-webkit-border-radius: 500px !important;
+	-moz-border-radius: 500px !important;
+	-o-border-radius: 500px !important;
+	text-transform: uppercase !important;
+	transition: background 0.4s, color 0.4s !important;
+	padding: 10px 20px !important;
+}
+
+.btn-roxo {
+	background: #7c25f8 !important;
+}
+
+.btn-roxo:hover {
+	background: #6207e3 !important;
+	color:white;
+}
+
+/* CAROUSEL PRINCIPAL */
+
+.capa-home {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.capa-contato {
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.capa-areas {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+/* Títulos */
+
+.conteudo h1 {
+	color: black;
+	padding-bottom: 5%;	
+}
+.conteudo h4 {
+	text-align: left;
+	color: black;
+	padding-bottom: 5%;	
+}
+
+/* CAIXAS ESTILIZADAS ÁREAS DE ATUAÇÃO */
+
+.areas-de-atuacao-box{
+	text-align: center;
+	border-style: solid;
+  	border-width: 2px;
+	border-color: gold;
+
+
+}
+
+/* GOOGLE MAPS IFRAME */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:50%;
+}
+
+/* RODAPÉ */
+
+footer {
+	background: black;
+	padding: 50px 0 20px 0;
+	position: relative;
+}

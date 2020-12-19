@@ -1,0 +1,329 @@
+body{
+	font-family: "Arial Rounded MT Bold";
+	font-size: 1em;
+    background: linear-gradient (#FFFFFF, #CCCCCC);
+	margin: 0 0 0 0 ;
+	width: 100%;
+	display:block;
+}
+
+
+header{
+	font-family: Calibri;
+    font-size: 2em; 
+    background-color: #000000;
+    margin-bottom: -100px;
+}
+header td{
+	display: table-cell;
+	float:center;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+article h1{
+	color:#000000;
+	font-family: "'edwardian_script_itcbold'";
+	font-size: 80px;
+	margin-left: 450px;
+}
+
+h2{
+font-family: 'edwardian_script_itcbold';
+text-align: center;
+font-size: 20px;
+}
+
+header hr{
+	color:#e1cc06;
+
+}
+.btn{
+	margin-top:0px;
+}
+nav{
+	width: 800px;
+	margin-top: 4px;
+}
+
+
+.home{
+  display: inline-block;
+  cursor:pointer;
+  font-family: Calibri;;
+  font-weight: bold;
+  font-size: 12px
+  padding:10px 15px;
+  text-decoration: none;
+  background-color: #000000;
+  color:#ffffff;
+  width: 316px;
+  height: 30px;
+  margin-top: -400px;
+  margin-left: -5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s all ease;
+
+}
+.home:hover{
+	background:#A9A9A9;
+	color:#000000;
+	transition: all 0.6s ease;
+}
+.home:active{
+	position:relative;
+	
+}
+
+.produtos{
+  display: inline-block;
+  cursor:pointer;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 12px
+  padding:10px 15px;
+  text-decoration: none;
+  background-color: #000000;
+  color:#ffffff;
+  width: 322px;
+  height: 30px;
+  margin-left: -5px;
+  margin-top: -400px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s all ease;
+
+}
+.produtos:hover{
+	background: #A9A9A9;
+	color:#000000;
+	transition: all 0.6s ease;
+}
+.produtos:active{
+	position:relative;
+	
+}
+.servicos{
+  display: inline-block;
+  cursor:pointer;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 12px
+  padding:10px 15px;
+  text-decoration: none;
+  background-color: #000000;
+  color:#ffffff;
+  width: 322px;
+  height: 30px;
+  margin-top: -400px;
+  margin-left: -5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s all ease;
+
+}
+.servicos:hover{
+	background: #A9A9A9;
+	color:#000000;
+	transition: all 0.6s ease;
+}
+.servicos:active{
+	position:relative;
+	
+}
+.contato{
+  display: inline-block;
+  cursor:pointer;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 12px
+  padding:10px 15px;
+  text-decoration: none;
+  background-color: #000000;
+  color:#ffffff;
+  width: 322px;
+  height: 30px;
+  margin-top: -400px;
+  margin-left: -5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1s all ease;
+
+}
+.contato:hover{
+	background: #A9A9A9;
+	color:#000000;
+	transition: all 0.6s ease;
+}
+.contato:active{
+	position:relative;
+	}
+
+#slider{
+	overflow:hidden;
+}
+#slider figure{
+	position:relative;
+	width: 500%;
+	margin:0;
+	left:0;
+	animation: 25s slider infinite;
+}
+#slider figure img{
+	width: 20%;
+	float:left;
+}
+@keyframes slider{
+	0% {
+		left:0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-100%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:0;
+	}
+	95%{
+		left:0;
+	}
+	100%{
+		left:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+footer{
+	background: #000000;
+	font-family: Calibri;
+	color: #ffffff;
+}
+
+
+td{
+	padding:20px;
+	margin-left: 20px;
+}
+.corpo h1{
+	color:#800000;
+}
+.corpo h2{
+	font-family: 'maven_proregular';
+	text-align: center;
+	
+}
+.cabeçalio{
+	width: 1000px;
+	margin:auto;
+	background-color: #000000;
+}
+
+.topo{
+	display:table;
+	background-color: #000000;
+
+}
+
+
+.logo img{
+	width:70%;
+	display: table-cell;
+	margin-left: -100px;
+	margin-top: 40px;
+}
+.Katia{
+	display: table-cell;
+	margin-right:-100px 
+	margin-top:-100px;
+	width: 300x;
+}
+h1{
+	font-family: 'edwardian_script_itcbold';
+}
+.rodape{
+	margin: auto;
+	display:table;
+	background-color: #000000;
+
+}
+.divisao{
+	display: table;
+	margin-top: 20px;
+}
+.nome{
+	display: table-cell;
+	margin-left: -100px;
+	width: 400px;
+	font-size: 20px;
+	color:#FA8072;
+	font-family: arial;
+}
+.localizacao{
+	margin-left: 50px;
+	display: table-cell;
+	width: 400px;
+	font-size: 20px;
+	color:#FA8072;
+	font-family: arial;
+}
+.contatos{
+	display: table-cell;
+	margin-right:-00px;
+	width: 100px;
+	font-size: 20px;
+	color:#FA8072;
+	font-family: arial;
+	}
+.divisao2{
+	display: table;
+	margin-top: 10px;
+	padding-left: 180px;
+	
+}
+.advogada{
+	display:table-cell;
+	margin-top: 30px;
+	margin-left: 100px;
+	width:200px;
+	font-family: arial;
+	padding-left: -50px;
+}
+.endereco{
+ 	display: table-cell;
+ 	width: 250px;
+ 	font-family: arial;
+ 	padding-left:200px; 
+ 	margin-bottom: 
+ 
+ 	
+}
+.telefone{
+	display: table-cell;
+	width: 135px;
+	margin-left: 50px;
+	font-family: arial;
+	padding-left: 150px; 
+}
+img{
+	width: 100%;
+}
