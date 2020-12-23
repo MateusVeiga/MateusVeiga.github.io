@@ -67,19 +67,19 @@ body, html, #home {
 /* BARRA DE NAVEGAÇÃO */
 
 nav.navbar-transparente {
-	background: black;
+	background: grey;
 }
 
 .nav-link-white {
-	color: white !important;
+	color: black !important;
 }
 .nav-link-white:hover {
-	color: #9bf0e1 !important;
+	color: black !important;
 }
 
 .navbar-toggler-formated {
-	color: rgba(0,0,0,0) !important;
-	border-color: rgba(0,0,0,0) !important;
+	color: black !important;
+	border-color: black !important;
 }
 
 .padding-nav{
